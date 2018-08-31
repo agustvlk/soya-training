@@ -1,0 +1,17 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "apiHost": "",
+  "auth": {
+    "authURL": "https://tvlk-dev.auth0.com/authorize",
+    "clientId": "pEJk1rYfwJMJXUvJ1rkG8k2RswswSKmQ",
+    "audience": "https://tvlk/soya",
+    "callbackPath": "/callback",
+    "rememberMe": true,
+    "checkTokenExpiryInterval": 600,
+    "maxTimeElapsedBeforeRefresh": 7200,
+    "activeThreshold": 0,
+    "sendAlert": false
+}
+}
